@@ -47,6 +47,7 @@ connection = session.create_cloud_connection(id)
 time.sleep(3)
 
 connection.set_cloud_variable(var, val)
+time.sleep(3)
 valN = connection.get_cloud_variable(var)
 if valN == val:
   print("Success")
