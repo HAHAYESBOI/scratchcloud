@@ -33,15 +33,17 @@ if file.read()[:7] != repo.text[:7]:
     quit()
 
 
-
+print("Project Id?")
+id = input()
 print("Name of variable?")
 var = input()
 print("Value?")
 val = input()
 
-session = scratch.ScratchSession("wdp09CloudServer", "CloudServer")
+session = scratch.ScratchSession("username", "password")
 
-connection = session.create_cloud_connection(644130706)
+
+connection = session.create_cloud_connection(id)
 time.sleep(3)
 
 connection.set_cloud_variable(var, val)
