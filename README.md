@@ -1,8 +1,11 @@
 # scratchcloud
 Set a cloud variable to anything on any Scratch project.
 
+(Easy way)
+To use, go to [Google Colab](https://colab.research.google.com/drive/1DrXcGrPBnrfYe8lGKQrd8dVDsfSBNLEj?usp=sharing) and follow the instructions on the notebook.
 
-How to install:
+(Hard way)
+Installation:
 
 1. Download Python from https://python.org/downloads
 2. Enter python3 -m pip install requests into your terminal to install the requests library.
