@@ -11,5 +11,6 @@ How to install:
 5. Create 2 text files on your computer and put them in the hack folder.
 6. Rename them to main.py and update.py respectively.
 7. Copy and paste the respective files from the repo into those files.
-8. Run the python file using IDLE or the terminal.
+8. Add your username and password into the blanks.
+9. Run the python file using IDLE or the terminal.
 You're done!
