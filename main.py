@@ -1,7 +1,7 @@
 #v1.0.0
 import scratchclient as scratch
 import time
-#from google.colab import output
+
 
 #If you are not comfortable entering your username and password, make an alt account with the same email and different password (I get it)
 print("Username? (Case sensitive)")
@@ -32,7 +32,6 @@ while run == True:
     print("Success")
   else:
     print("Failed. Make sure you put in the correct variable (case sensitive)")
-  #output.clear()
   print("Run again? (y/n)")
   run = input()
   if run.lower() == "y":
